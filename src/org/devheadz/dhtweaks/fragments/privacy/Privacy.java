@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.devheadz.devheadzsettings.fragments.privacy;
+package org.devheadz.dhtweaks.fragments.privacy;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -49,7 +49,7 @@ public class Privacy extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.DEVHEADZSETTINGS;
+        return MetricsEvent.DHTWEAKS;
     }
 
     @Override

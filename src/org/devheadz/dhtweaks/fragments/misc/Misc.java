@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.devheadz.devheadzsettings.fragments.system;
+package org.devheadz.dhtweaks.fragments.misc;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -34,22 +34,22 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
-public class System extends SettingsPreferenceFragment implements
+public class Misc extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
-    private static final String TAG = "System";
+    private static final String TAG = "Misc";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.system);
+        addPreferencesFromResource(R.xml.misc);
 
         ContentResolver resolver = getActivity().getContentResolver();
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.DEVHEADZSETTINGS;
+        return MetricsEvent.DHTWEAKS;
     }
 
     @Override

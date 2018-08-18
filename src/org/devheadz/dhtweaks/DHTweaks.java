@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.devheadz.devheadzsettings;
+package org.devheadz.dhtweaks;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -55,7 +55,7 @@ import com.android.settings.Utils;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DevHeadzSettings extends SettingsPreferenceFragment {
+public class DHTweaks extends SettingsPreferenceFragment {
 
     private static final int MENU_HELP  = 0;
 
@@ -80,7 +80,7 @@ public class DevHeadzSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.DEVHEADZSETTINGS;
+        return MetricsEvent.DHTWEAKS;
     }
 
     @Override
@@ -90,8 +90,8 @@ public class DevHeadzSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        menu.add(0, MENU_HELP, 0, R.string.devheadzsettings_dialog_title)
-                .setIcon(R.drawable.ic_devheadzsettings_info)
+        menu.add(0, MENU_HELP, 0, R.string.dhtweaks_dialog_title)
+                .setIcon(R.drawable.ic_dhtweaks_info)
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
     }
 
@@ -101,7 +101,7 @@ public class DevHeadzSettings extends SettingsPreferenceFragment {
             case MENU_HELP:
                 showDialogInner(MENU_HELP);
                 Toast.makeText(getActivity(),
-                (R.string.devheadzsettings_dialog_toast),
+                (R.string.dhtweaks_dialog_toast),
                 Toast.LENGTH_LONG).show();
                 return true;
             default:
@@ -130,8 +130,8 @@ public class DevHeadzSettings extends SettingsPreferenceFragment {
             switch (id) {
                 case MENU_HELP:
                     return new AlertDialog.Builder(getActivity())
-                    .setTitle(R.string.devheadzsettings_dialog_title)
-                    .setMessage(R.string.devheadzsettings_dialog_message)
+                    .setTitle(R.string.dhtweaks_dialog_title)
+                    .setMessage(R.string.dhtweaks_dialog_message)
                     .setCancelable(false)
                     .setNegativeButton(R.string.dlg_ok,
                         new DialogInterface.OnClickListener() {
