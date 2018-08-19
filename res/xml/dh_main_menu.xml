@@ -26,7 +26,7 @@
        android:title="@string/system_category" />
 
    <Preference
-       android:fragment="org.devheadz.dhtweaks.fragments.system.Buttons"
+       android:fragment="org.devheadz.dhtweaks.fragments.buttons.Buttons"
        android:icon="@drawable/ic_buttons"
        android:title="@string/buttons_category" />
 
