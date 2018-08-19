@@ -20,8 +20,4 @@
     <string name="dhtweaks_dialog_message">Thank you for using DevHeadzRom!\n\nMost of the DevHeadz team is new to coding and other things, but we\nare familiar with the Android ecosystem. That being said, if you find a bug please do the following:\n\n1. Grab a logcat. There are plenty of apps that can do this, or you can grab it via adb.\n\n2. Describe the bug you are encountering in detail, along with the logcat you captured.</string>
     <string name="dhtweaks_dialog_toast">READ THE WHOLE THING!</string>
 
-    <!-- Lockscreen torch -->
-    <string name="keyguard_torch_title">Screen-off torch</string>
-    <string name="keyguard_torch_summary">Longpress power button with screen off turns on torch</string>
-
 </resources>
