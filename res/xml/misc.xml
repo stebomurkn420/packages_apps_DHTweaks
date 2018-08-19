@@ -20,7 +20,7 @@
     android:title="@string/system_category"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-        <com.devheadz.settings.preference.SystemSettingSwitchPreference
+        <org.devheadz.dhtweaks.fragments.preference.SystemSettingSwitchPreference
             android:key="keyguard_toggle_torch"
             android:title="@string/keyguard_torch_title"
             android:summary="@string/keyguard_torch_summary"
