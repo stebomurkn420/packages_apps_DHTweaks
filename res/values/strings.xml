@@ -14,6 +14,7 @@
     <string name="dhtweaks">DHTweaks</string>
     <string name="system_category">System</string>
     <string name="misc_category">Misc</string>
+    <string name="buttons_category">Buttons</string>
 
     <!-- Dialog -->
     <string name="dhtweaks_dialog_title">Help us help you!</string>
