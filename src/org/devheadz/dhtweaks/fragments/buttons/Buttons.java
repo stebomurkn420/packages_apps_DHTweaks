@@ -24,7 +24,7 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.ListPreference;
 import android.widget.Toast;
 
-import com.android.internal.util.cr.CrUtils;
+import com.android.internal.util.dh.DhUtils;
 import com.android.settings.R;
 import com.android.settings.CustomSettingsPreferenceFragment;
 
@@ -41,7 +41,7 @@ public class Buttons extends CustomSettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.buttons);
         PreferenceScreen prefSet = getPreferenceScreen();
-        if (!CrUtils.deviceSupportsFlashLight(getContext())) {
+        if (!DhUtils.deviceSupportsFlashLight(getContext())) {
             Preference toRemove = prefSet.findPreference(TORCH_POWER_BUTTON_GESTURE);
             if (toRemove != null) {
                 prefSet.removePreference(toRemove);
