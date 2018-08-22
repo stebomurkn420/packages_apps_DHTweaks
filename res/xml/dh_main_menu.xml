@@ -36,4 +36,9 @@
        android:icon="@drawable/ic_misc"
        android:title="@string/misc_category" />
 
+   <Preference
+       android:fragment="org.devheadz.dhtweaks.fragments.statusbar.Statusbar"
+       android:icon="@drawable/ic_statusbar"
+       android:title="@string/statusbar_category" />
+
 </PreferenceScreen>
