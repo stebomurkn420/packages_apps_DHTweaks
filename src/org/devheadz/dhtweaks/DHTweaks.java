@@ -45,7 +45,6 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -100,9 +99,6 @@ public class DHTweaks extends SettingsPreferenceFragment {
         switch (item.getItemId()) {
             case MENU_HELP:
                 showDialogInner(MENU_HELP);
-                Toast.makeText(getActivity(),
-                (R.string.dhtweaks_dialog_toast),
-                Toast.LENGTH_LONG).show();
                 return true;
             default:
                 return false;
