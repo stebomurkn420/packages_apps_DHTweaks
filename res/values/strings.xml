@@ -11,17 +11,23 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title -->
     <string name="dhtweaks">DHTweaks</string>
     <string name="statusbar_category">Statusbar</string>
+
+    <!-- Main categories -->
     <string name="system_category">System</string>
     <string name="misc_category">Misc</string>
     <string name="buttons_category">Buttons</string>
 
+    <!-- Preference categories -->
     <string name="hardware_buttons_category">Hardware buttons</string>
+    <string name="navbar_category">Navigation bar</string>
+
 
     <!-- Dialog -->
-    <string name="dhtweaks_dialog_title">Help us help you!</string>
-    <string name="dhtweaks_dialog_message">Thank you for using DevHeadzRom!\n\nMost of the DevHeadz team is new to coding and other things, but we are familiar with the Android ecosystem. That being said, if you find a bug please do the following:\n\n1. Grab a logcat. There are plenty of apps that can do this, or you can grab it via adb.\n\n2. Describe the bug you are encountering in detail, along with the logcat you captured.</string>
+    <string name="dhtweaks_dialog_title">Thank you for using DevHeadzRom!</string>
+    <string name="dhtweaks_dialog_message">Most of the DevHeadz team is new to coding and other things, but we are familiar with the Android ecosystem. That being said, if you find a bug please do the following:\n\n1. Grab a logcat. There are plenty of apps that can do this, or you can grab it via adb.\n\n2. Describe the bug you are encountering in detail, along with the logcat you captured.</string>
 
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
