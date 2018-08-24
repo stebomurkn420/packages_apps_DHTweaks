@@ -57,12 +57,12 @@ public class Buttons extends CustomSettingsPreferenceFragment implements
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
         boolean DoubleTapPowerGesture = Settings.Secure.getInt(getActivity().getContentResolver(),
                 Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED, 1) == 0;
         if (preference == mTorchPowerButton) {
-            int mTorchPowerButtonValue = Integer.valueOf((String) objValue);
-            int index = mTorchPowerButton.findIndexOfValue((String) objValue);
+            int mTorchPowerButtonValue = Integer.valueOf((String) newValue);
+            int index = mTorchPowerButton.findIndexOfValue((String) newValue);
             mTorchPowerButton.setSummary(
                     mTorchPowerButton.getEntries()[index]);
             Settings.Secure.putInt(getActivity().getContentResolver(),
