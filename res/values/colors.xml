@@ -21,4 +21,9 @@
     <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
     <color name="icon_tint_color">@color/material_deep_teal_500</color>
 
+    <!-- icon bgs -->
+    <color name="homepage_system_bg">#cd0000</color>
+    <color name="homepage_misc_bg">#66cc66</color>
+    <color name="homepage_buttons_bg">#474747</color>
+    <color name="homepage_statusbar_bg">#ff9f2b</color>
 </resources>

@@ -24,6 +24,8 @@
     <string name="hardware_buttons_category">Hardware buttons</string>
     <string name="navbar_category">Navigation bar</string>
 
+    <!-- Summaries -->
+    <string name="summary_system_fragment">Test123</string>
 
     <!-- Dialog -->
     <string name="dhtweaks_dialog_title">Thank you for using DevHeadzRom!</string>
