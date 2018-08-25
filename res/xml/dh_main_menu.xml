@@ -22,23 +22,23 @@
 
    <Preference
        android:fragment="org.devheadz.dhtweaks.fragments.system.System"
-       android:icon="@drawable/ic_system"
+       android:icon="@drawable/ic_homepage_system"
        android:title="@string/system_category" />
 
    <Preference
        android:fragment="org.devheadz.dhtweaks.fragments.buttons.Buttons"
-       android:icon="@drawable/ic_buttons"
+       android:icon="@drawable/ic_homepage_buttons"
        android:title="@string/buttons_category" />
 
 
    <Preference
        android:fragment="org.devheadz.dhtweaks.fragments.misc.Misc"
-       android:icon="@drawable/ic_misc"
+       android:icon="@drawable/ic_homepage_misc"
        android:title="@string/misc_category" />
 
    <Preference
        android:fragment="org.devheadz.dhtweaks.fragments.statusbar.Statusbar"
-       android:icon="@drawable/ic_statusbar"
+       android:icon="@drawable/ic_homepage_statusbar"
        android:title="@string/statusbar_category" />
 
 </PreferenceScreen>
