@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.devheadz.dhtweaks.fragments.misc;
+package org.devheadz.dhtweaks.fragments;
 
 import android.content.Context;
 import android.content.ContentResolver;

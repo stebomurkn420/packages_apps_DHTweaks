@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.devheadz.dhtweaks.fragments.buttons;
+package org.devheadz.dhtweaks.fragments;
 
 import android.os.Bundle;
 import android.provider.Settings;

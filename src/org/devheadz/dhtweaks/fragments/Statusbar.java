@@ -13,8 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- package org.devheadz.dhtweaks.fragments.statusbar;
- import android.content.Context;
+
+package org.devheadz.dhtweaks.fragments.statusbar;
+import android.content.Context;
+package org.devheadz.dhtweaks.fragments;
+import android.content.Context;
 import android.content.ContentResolver;
 import android.content.res.Resources;
 import android.os.Bundle;

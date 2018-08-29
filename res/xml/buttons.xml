@@ -28,9 +28,5 @@
 
     </PreferenceCategory>
 
-<!--    <PreferenceCategory
-        android:title="@string/navbar_category">
-    </PreferenceCategory> -->
-
 </PreferenceScreen>
 
